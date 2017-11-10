@@ -17,33 +17,3 @@ def name():
 
 if __name__ == "__main__":
     app.run(debug=True,port=3000)
-
-
-# function firstDuplicate(a) {
-#     i=0;
-#     j=i+1;
-#     var min = a.length
-#     var answer = -1;
-#     while(i < a.length-1 || j < a.length){
-#         if(a[i] === a[j]){
-#             if(j < min){
-#                 min = j
-#                 answer = a[i]
-#                 i++
-#                 j = i+1
-#             } else {
-#                 i++;
-#                 j= i+1;
-#             }
-#         } else {
-#             if(j > a.length-1){
-#                 i++
-#                 j = i+1
-#             } else {
-#                 j++
-#             }
-#         }
-        
-#     }
-#     return answer
-# }
